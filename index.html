@@ -2,42 +2,44 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>foodie</title>
-	<style type="text/css">
-		ol{
-			list-style: none;
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>milk-shake</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<style>
+		body{
+			background-image:url("bg.jpeg");
+			background-size: cover;
 		}
-		table{
-			 border-collapse: collapse;
+		div.gallery{
+			margin: 5px;
+		        border-radius: 30px;
+		        float: left;
 		}
-
-
+		.gallery img{
+		       width:85px;
+		       height:75px;
+	        }  
 	</style>
 </head>
-<body>
-    <h1>MILK SHAKES</h1>
-<div>
-	<dl>
-		<dt><b>INGREDIENTS:</b></dt>
-<dd><ul>
+<body class="main">
+    <center><img src="logo1.png" width="125" height="75"></center>	
+    <h1 class="mainh">MILK SHAKES</h1>
+    <img class="mainp" id="mob" src="shakes1.jpg" width="225" height="225">
+    <h3><u>Ingredients</u></h3>
+<ul>
 <li>Ice-cream </li>
 <li>milk</li>
 <li> added flavours</li> 
-</ul></dd></dl>
-</div>
-
-<div>
-</p>
-
-<table border="1">
+</ul>
+<h3><u>Calorie Chart</u></h3>
+<table class="nutrition" border="1" cellpadding="5">
 	<tr>
-		<th>NUTRIENTS</th>
-		<th>Amount Per 100 grams</th>
+		<th>Nutrients</th>
+		<th>Quantity</th>
 	</tr>
 	<tr>
-		<td>Carbs</td>
-		<td>31</td>
+		<td><b>Carbs</b></td>
+		<td><b>31</b></td>
 	</tr>
 	<tr>
 		<td>Dietary Fiber</td>
@@ -48,8 +50,8 @@
 		<td>28</td>
 	</tr>
 	<tr>
-		<td>Fat</td>
-		<td>12</td>
+		<td><b>Fat</b></td>
+		<td><b>12</b></td>
 	</tr>
 	<tr>
 		<td>Saturated</td>
@@ -60,8 +62,8 @@
 		<td>0</td>
 	</tr>
 	<tr>
-		<td>Protein</td>
-		<td>7</td>
+		<td><b>Protein</b></td>
+		<td><b>7</b></td>
 	</tr>
 	<tr>
 		<td>Sodium</td>
@@ -91,29 +93,20 @@
 		<td>Iron</td>
 		<td>0%</td>
 	</tr>
-</table><br>
-<div id="img">
-	<img src="shakes1.jpg" height="200" width="200" alt="Milkshake">
-	<img src="shakes2.jpg" height="200" width="200" alt="Milkshake">
-	<img src="shakes3.jpg" height="200" width="200" alt="Milkshake">
-	<img src="shakes4.jpg" height="200" width="200" alt="Milkshake">
-	<img src="shakes5.jpg" height="200" width="200" alt="Milkshake">
-</div>
-<div>
-	<dl>
-		<dt><b>Milkshake Fun Facts:</b></dt>
-		<dd> 
-			<ul>
-				<li>The first known printed reference to a “milkshake” dates back to 1885 and contains whiskey as one ingredient. For medicinal purposes only (wink wink)</li>
-				<li>Milkshakes got their name from being served in bars. If the customer enjoyed the milkshake, he shook hands with the bartender. If not, the bartender didn’t get a tip.</li>
-				<li>June 20th is National Vanilla Milkshake Day.</li>
-				<li>September 12th is National Chocolate Milkshake Day.</li>
-				<li>According to The Guinness Book of World Records, in 2000 Ira Freehof, made the world’s largest milkshake. At 6,000 gallons it was the equivalent of 50,000 normal-sized shakes.</li>
-				<li>Malted milk powder was invented in 1897 by James and William Horlick, but it was Ivar Coulson, a soda jerk for a Walgreen’s drug store, who first added it to milkshakes in 1922. This created the malted milkshake or just plain “malt.”</li>
-				<li>Malted milk powder was invented in 1897 by James and William Horlick, but it was Ivar Coulson, a soda jerk for a Walgreen’s drug store, who first added it to milkshakes in 1922. This created the malted milkshake or just plain “malt.”</li>
-			</ul>
-		</dd>
-	</dl>
+</table><br><br>
+<div class="gallery">
+	<img class="gallery img" src="shakes2.jpg">
+	<img class="gallery img" src="shakes3.jpg">
+	<img class="gallery img" src="shakes4.jpg">
+</div><br><br><br><br>
+
+<div class="facts">
+<h3>FUN FACTS</h3>
+<ul type="circle">
+	<li>The first known printed reference to a “milkshake” dates back to 1885 and contains whiskey as one ingredient. For medicinal purposes only (wink wink)</li>
+	<li>Milkshakes got their name from being served in bars. If the customer enjoyed the milkshake, he shook hands with the bartender. If not, the bartender didn’t get a tip.</li>
+	<li>June 20th is National Vanilla Milkshake Day.</li>
+</ul>			
 </div>
 </body>
 </html>
